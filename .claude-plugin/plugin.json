@@ -1,7 +1,7 @@
 {
-    "name": "Notion",
-    "version": "0.1.0",
-    "description": "Notion Skills + Notion MCP server packaged as a Claude Code plugin.",
+    "name": "Notion + Kingdom OS",
+    "version": "0.2.0",
+    "description": "Notion Skills + Notion MCP server packaged as a Claude Code plugin, extended with Kingdom OS Second Brain skills and commands for daily rhythms, strategic reviews, scripture logging, habit formation, and Kingdom project governance.",
     "author": {
       "name": "Notion Labs",
       "url": "https://www.notion.so"
