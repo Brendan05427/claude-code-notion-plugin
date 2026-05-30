@@ -5,14 +5,15 @@ This repository provides an official Claude Code plugin that bundles:
 - **Notion Skills** (from the Notion Cookbook) that teach Claude how to work intelligently inside your Notion workspace  
 - The **[Notion MCP Server](https://developers.notion.com/docs/mcp)**, which enables Claude to securely search, read, and update your Notion content  
 - A curated set of **Slash Commands** that make common Notion workflows fast and natural  
+- **Kingdom OS Skills** that install a full personal operating system inside Claude, combining Kingdom leadership principles with Second Brain methodology
 
 This plugin allows Claude Code users to install everything — Skills + MCP server — with **one click**.
 
 ---
 
-## 🚀 Features
+## Features
 
-### ✅ Fully packaged Notion Skills
+### Notion Skills
 Includes all four high-quality Skills from the Notion Cookbook:
 
 - **Knowledge Capture**
@@ -22,7 +23,7 @@ Includes all four high-quality Skills from the Notion Cookbook:
 
 These instructions teach Claude how to structure, write, summarize, capture, and maintain content in your Notion workspace.
 
-### ✅ Integrated Notion MCP Server
+### Integrated Notion MCP Server
 Claude Code automatically connects to Notion's hosted MCP server at:
 
 ```
@@ -38,8 +39,7 @@ This provides Claude with tools to:
 - Insert database rows  
 - Work with properties safely  
 
-### ✅ Powerful Slash Commands  
-This plugin ships with a set of helpful commands:
+### Notion Slash Commands  
 
 | Command | Description |
 |--------|-------------|
@@ -54,11 +54,52 @@ This plugin ships with a set of helpful commands:
 | `/Notion:tasks:plan <url>` | Make a plan for a task from a Notion page URL |
 | `/Notion:tasks:explain-diff` | Generate a Notion doc explaining code changes |
 
-These commands leverage both the Notion Skills and the MCP server.
+---
+
+## Kingdom OS Second Brain
+
+The Kingdom OS extension installs a full personal and professional operating system inside Claude, combining Kingdom leadership architecture with Second Brain CODE/PARA methodology.
+
+**Core principle**: Order precedes multiplication. Structure precedes the supernatural.
+
+### Kingdom OS Skills
+
+| Skill | Description |
+|---|---|
+| `kingdom-os-framework` | Nine Kingdom domains, four-layer OS, CODE/PARA, Goshen Principle, domain scoring |
+| `kingdom-os-daily-rhythm` | Morning activation, midday alignment, evening debrief protocols |
+| `kingdom-os-review-rhythms` | Weekly, monthly, quarterly, and annual review cadences |
+
+### Kingdom OS Commands
+
+| Command | Description |
+|---|---|
+| `/KingdomOS:morning` | Run morning activation — scripture, declaration, top 3 actions, family presence |
+| `/KingdomOS:evening` | Run evening debrief — win, obedience step, inbox-zero, scores |
+| `/KingdomOS:weekly-review` | Weekly strategic review across all 7 domains |
+| `/KingdomOS:log-scripture` | Log scripture + revelation + obedience step to Notion |
+| `/KingdomOS:add-project` | Add a Kingdom project to the Projects Board |
+| `/KingdomOS:domain-score` | Score a Kingdom domain with RAG and next order step |
+| `/KingdomOS:habit-check` | Check in on 66-day habit formation tracker |
+| `/KingdomOS:declaration` | Record daily declaration consistency |
+
+### Nine Kingdom Domains
+
+1. Spiritual Formation
+2. Business & Stewardship
+3. Family & Marriage
+4. Health & Energy
+5. Ministry & Calling
+6. Finances & Generosity
+7. Leadership & Team
+8. Learning & Wisdom
+9. Community & Brotherhood
+
+All Kingdom OS commands read from and write to your Notion workspace using the same Notion MCP server — no additional setup required.
 
 ---
 
-## 📦 Installation (Claude Code)
+## Installation (Claude Code)
 
 ### 1. Add this plugin's marketplace
 In Claude Code, run:
@@ -78,14 +119,15 @@ This ensures the MCP server starts correctly.
 
 ---
 
-## 🔑 Authentication
+## Authentication
 
 The Notion MCP server supports **OAuth**!
 
 ---
 
-## 🙌 Credits
+## Credits
 
-- **Skills** by the Notion
+- **Notion Skills** by Notion
 - **MCP Server** by Notion  
-- **Plugin Specification** by Anthropic 
+- **Plugin Specification** by Anthropic
+- **Kingdom OS Framework** based on Order of Kings and Second Brain methodologies
