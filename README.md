@@ -6,6 +6,7 @@ This repository provides an official Claude Code plugin that bundles:
 - The **[Notion MCP Server](https://developers.notion.com/docs/mcp)**, which enables Claude to securely search, read, and update your Notion content  
 - A curated set of **Slash Commands** that make common Notion workflows fast and natural  
 - **Kingdom OS Skills** that install a full personal operating system inside Claude, combining Kingdom leadership principles with Second Brain methodology
+- **Estica Learner Centre MFR** skills and commands for monthly financial operational close
 
 This plugin allows Claude Code users to install everything — Skills + MCP server — with **one click**.
 
@@ -69,6 +70,7 @@ The Kingdom OS extension installs a full personal and professional operating sys
 | `kingdom-os-framework` | Nine Kingdom domains, four-layer OS, CODE/PARA, Goshen Principle, domain scoring |
 | `kingdom-os-daily-rhythm` | Morning activation, midday alignment, evening debrief protocols |
 | `kingdom-os-review-rhythms` | Weekly, monthly, quarterly, and annual review cadences |
+| `kingdom-os-mfr` | Estica Learner Centre Monthly Financial Review — all 4 phases, 11 tasks, due 7th of each month |
 
 ### Kingdom OS Commands
 
@@ -82,6 +84,14 @@ The Kingdom OS extension installs a full personal and professional operating sys
 | `/KingdomOS:domain-score` | Score a Kingdom domain with RAG and next order step |
 | `/KingdomOS:habit-check` | Check in on 66-day habit formation tracker |
 | `/KingdomOS:declaration` | Record daily declaration consistency |
+
+### MFR Commands (Estica Learner Centre)
+
+| Command | Description |
+|---|---|
+| `/KingdomOS:mfr-run` | Walk through the full monthly financial close — all 4 phases, log to Notion |
+| `/KingdomOS:mfr-aging` | Run Phase 2 only — aging report, critical defaulters, reminders |
+| `/KingdomOS:mfr-close` | Execute sign-off and archival after all phases are confirmed complete |
 
 ### Nine Kingdom Domains
 
@@ -131,3 +141,4 @@ The Notion MCP server supports **OAuth**!
 - **MCP Server** by Notion  
 - **Plugin Specification** by Anthropic
 - **Kingdom OS Framework** based on Order of Kings and Second Brain methodologies
+- **MFR Framework** based on Estica Learner Centre Operational Control Framework MFR-2026-V1
